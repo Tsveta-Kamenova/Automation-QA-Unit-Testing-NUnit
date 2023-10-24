@@ -1,0 +1,14 @@
+D:\SOFTWARE\_SoftUni-QA\03_Programming Fundamentals and Unit Testing - September_2023\14_Unit_Testing\ConsoleAppSummator\bin\Debug\net6.0\ConsoleAppSummator.exe
+D:\SOFTWARE\_SoftUni-QA\03_Programming Fundamentals and Unit Testing - September_2023\14_Unit_Testing\ConsoleAppSummator\bin\Debug\net6.0\ConsoleAppSummator.deps.json
+D:\SOFTWARE\_SoftUni-QA\03_Programming Fundamentals and Unit Testing - September_2023\14_Unit_Testing\ConsoleAppSummator\bin\Debug\net6.0\ConsoleAppSummator.runtimeconfig.json
+D:\SOFTWARE\_SoftUni-QA\03_Programming Fundamentals and Unit Testing - September_2023\14_Unit_Testing\ConsoleAppSummator\bin\Debug\net6.0\ConsoleAppSummator.dll
+D:\SOFTWARE\_SoftUni-QA\03_Programming Fundamentals and Unit Testing - September_2023\14_Unit_Testing\ConsoleAppSummator\bin\Debug\net6.0\ConsoleAppSummator.pdb
+D:\SOFTWARE\_SoftUni-QA\03_Programming Fundamentals and Unit Testing - September_2023\14_Unit_Testing\ConsoleAppSummator\obj\Debug\net6.0\ConsoleAppSummator.GeneratedMSBuildEditorConfig.editorconfig
+D:\SOFTWARE\_SoftUni-QA\03_Programming Fundamentals and Unit Testing - September_2023\14_Unit_Testing\ConsoleAppSummator\obj\Debug\net6.0\ConsoleAppSummator.AssemblyInfoInputs.cache
+D:\SOFTWARE\_SoftUni-QA\03_Programming Fundamentals and Unit Testing - September_2023\14_Unit_Testing\ConsoleAppSummator\obj\Debug\net6.0\ConsoleAppSummator.AssemblyInfo.cs
+D:\SOFTWARE\_SoftUni-QA\03_Programming Fundamentals and Unit Testing - September_2023\14_Unit_Testing\ConsoleAppSummator\obj\Debug\net6.0\ConsoleAppSummator.csproj.CoreCompileInputs.cache
+D:\SOFTWARE\_SoftUni-QA\03_Programming Fundamentals and Unit Testing - September_2023\14_Unit_Testing\ConsoleAppSummator\obj\Debug\net6.0\ConsoleAppSummator.dll
+D:\SOFTWARE\_SoftUni-QA\03_Programming Fundamentals and Unit Testing - September_2023\14_Unit_Testing\ConsoleAppSummator\obj\Debug\net6.0\refint\ConsoleAppSummator.dll
+D:\SOFTWARE\_SoftUni-QA\03_Programming Fundamentals and Unit Testing - September_2023\14_Unit_Testing\ConsoleAppSummator\obj\Debug\net6.0\ConsoleAppSummator.pdb
+D:\SOFTWARE\_SoftUni-QA\03_Programming Fundamentals and Unit Testing - September_2023\14_Unit_Testing\ConsoleAppSummator\obj\Debug\net6.0\ConsoleAppSummator.genruntimeconfig.cache
+D:\SOFTWARE\_SoftUni-QA\03_Programming Fundamentals and Unit Testing - September_2023\14_Unit_Testing\ConsoleAppSummator\obj\Debug\net6.0\ref\ConsoleAppSummator.dll
