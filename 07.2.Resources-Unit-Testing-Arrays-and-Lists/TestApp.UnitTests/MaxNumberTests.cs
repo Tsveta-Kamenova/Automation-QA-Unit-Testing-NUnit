@@ -13,6 +13,7 @@ public class MaxNumberTests
         List<int>? nullList = null;
 
         // Act & Assert
+        Assert.That(() => MaxNumber.FindMax(nullList), Throws.ArgumentException);
     }
 
     [Test]
@@ -22,35 +23,71 @@ public class MaxNumberTests
         List<int> emptyList = new();
 
         // Act & Assert
+        Assert.That(() => MaxNumber.FindMax(emptyList), Throws.ArgumentException);
     }
 
     [Test]
     public void Test_FindMax_InputHasOneElement_ShouldReturnTheElement()
     {
-        // TODO: finish test
+        // Arrange
+        List<int> checkList = new() { 1 };
+
+        // Act
+        int result = MaxNumber.FindMax(checkList);
+
+        // Assert
+        Assert.That(result, Is.EqualTo(1));
     }
 
     [Test]
     public void Test_FindMax_InputHasPositiveIntegers_ShouldReturnMaximum()
     {
-        // TODO: finish test
+        // Arrange
+        List<int> checkList = new() { 1, 5, 19999 };
+
+        // Act
+        int result = MaxNumber.FindMax(checkList);
+
+        // Assert
+        Assert.That(result, Is.EqualTo(19999));
     }
 
     [Test]
     public void Test_FindMax_InputHasNegativeIntegers_ShouldReturnMaximum()
     {
-        // TODO: finish test
+        // Arrange
+        List<int> checkList = new() { -1, -5, -19999 };
+
+        // Act
+        int result = MaxNumber.FindMax(checkList);
+
+        // Assert
+        Assert.That(result, Is.EqualTo(-1));
     }
 
     [Test]
     public void Test_FindMax_InputHasMixedIntegers_ShouldReturnMaximum()
     {
-        // TODO: finish test
+        // Arrange
+        List<int> checkList = new() { -1, -5, -19999, 7, 500 };
+
+        // Act
+        int result = MaxNumber.FindMax(checkList);
+
+        // Assert
+        Assert.That(result, Is.EqualTo(500));
     }
 
     [Test]
     public void Test_FindMax_InputHasDuplicateMaxValue_ShouldReturnMaximum()
     {
-        // TODO: finish test
+        // Arrange
+        List<int> checkList = new() { -1, -5, -19999, 7, 500, 500, 500, 7 };
+
+        // Act
+        int result = MaxNumber.FindMax(checkList);
+
+        // Assert
+        Assert.That(result, Is.EqualTo(500));
     }
 }
