@@ -19,7 +19,6 @@ public class EvenOddSubtractionTests
         Assert.That(result, Is.EqualTo(0));
     }
 
-    // TODO: finish the test
     [Test]
     public void Test_FindDifference_InputHasOnlyEvenNumbers_ShouldReturnEvenSum()
     {
