@@ -35,7 +35,7 @@ public class EmailTests
     public void Test_IsValidEmail_NullInput()
     {
         // Arrange
-        string validEmail = null;
+        string? validEmail = null;
 
         // Act
         bool result = Email.IsValidEmail(validEmail);

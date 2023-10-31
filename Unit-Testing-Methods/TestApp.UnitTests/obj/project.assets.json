@@ -3964,11 +3964,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SOFTWARE\\_SoftUni-QA\\03_Programming Fundamentals and Unit Testing - September_2023\\14_Unit_Testing\\07.1.Resources-Unit-Testing-Methods\\TestApp.UnitTests\\TestApp.UnitTests.csproj",
+      "projectUniqueName": "D:\\SOFTWARE\\_SoftUni-QA\\03_Programming Fundamentals and Unit Testing - September_2023\\14_Unit_Testing\\Unit-Testing-Methods\\TestApp.UnitTests\\TestApp.UnitTests.csproj",
       "projectName": "TestApp.UnitTests",
-      "projectPath": "D:\\SOFTWARE\\_SoftUni-QA\\03_Programming Fundamentals and Unit Testing - September_2023\\14_Unit_Testing\\07.1.Resources-Unit-Testing-Methods\\TestApp.UnitTests\\TestApp.UnitTests.csproj",
+      "projectPath": "D:\\SOFTWARE\\_SoftUni-QA\\03_Programming Fundamentals and Unit Testing - September_2023\\14_Unit_Testing\\Unit-Testing-Methods\\TestApp.UnitTests\\TestApp.UnitTests.csproj",
       "packagesPath": "C:\\Users\\Tsveta\\.nuget\\packages\\",
-      "outputPath": "D:\\SOFTWARE\\_SoftUni-QA\\03_Programming Fundamentals and Unit Testing - September_2023\\14_Unit_Testing\\07.1.Resources-Unit-Testing-Methods\\TestApp.UnitTests\\obj\\",
+      "outputPath": "D:\\SOFTWARE\\_SoftUni-QA\\03_Programming Fundamentals and Unit Testing - September_2023\\14_Unit_Testing\\Unit-Testing-Methods\\TestApp.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tsveta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3985,8 +3985,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\SOFTWARE\\_SoftUni-QA\\03_Programming Fundamentals and Unit Testing - September_2023\\14_Unit_Testing\\07.1.Resources-Unit-Testing-Methods\\TestApp\\TestApp.csproj": {
-              "projectPath": "D:\\SOFTWARE\\_SoftUni-QA\\03_Programming Fundamentals and Unit Testing - September_2023\\14_Unit_Testing\\07.1.Resources-Unit-Testing-Methods\\TestApp\\TestApp.csproj"
+            "D:\\SOFTWARE\\_SoftUni-QA\\03_Programming Fundamentals and Unit Testing - September_2023\\14_Unit_Testing\\Unit-Testing-Methods\\TestApp\\TestApp.csproj": {
+              "projectPath": "D:\\SOFTWARE\\_SoftUni-QA\\03_Programming Fundamentals and Unit Testing - September_2023\\14_Unit_Testing\\Unit-Testing-Methods\\TestApp\\TestApp.csproj"
             }
           }
         }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SOFTWARE\\_SoftUni-QA\\03_Programming Fundamentals and Unit Testing - September_2023\\14_Unit_Testing\\07.2.Resources-Unit-Testing-Arrays-and-Lists\\TestApp\\TestApp.csproj",
+      "projectUniqueName": "D:\\SOFTWARE\\_SoftUni-QA\\03_Programming Fundamentals and Unit Testing - September_2023\\14_Unit_Testing\\Unit-Testing-Arrays-and-Lists\\TestApp\\TestApp.csproj",
       "projectName": "TestApp",
-      "projectPath": "D:\\SOFTWARE\\_SoftUni-QA\\03_Programming Fundamentals and Unit Testing - September_2023\\14_Unit_Testing\\07.2.Resources-Unit-Testing-Arrays-and-Lists\\TestApp\\TestApp.csproj",
+      "projectPath": "D:\\SOFTWARE\\_SoftUni-QA\\03_Programming Fundamentals and Unit Testing - September_2023\\14_Unit_Testing\\Unit-Testing-Arrays-and-Lists\\TestApp\\TestApp.csproj",
       "packagesPath": "C:\\Users\\Tsveta\\.nuget\\packages\\",
-      "outputPath": "D:\\SOFTWARE\\_SoftUni-QA\\03_Programming Fundamentals and Unit Testing - September_2023\\14_Unit_Testing\\07.2.Resources-Unit-Testing-Arrays-and-Lists\\TestApp\\obj\\",
+      "outputPath": "D:\\SOFTWARE\\_SoftUni-QA\\03_Programming Fundamentals and Unit Testing - September_2023\\14_Unit_Testing\\Unit-Testing-Arrays-and-Lists\\TestApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tsveta\\AppData\\Roaming\\NuGet\\NuGet.Config",

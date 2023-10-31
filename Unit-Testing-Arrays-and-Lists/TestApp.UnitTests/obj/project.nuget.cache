@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uFsmorjLanukCnjiOWCtbqzeMXE6UxPKsHhST80MHaQoFAsMFSFWvl7lCFFm9Ig08aYvHbvTOk21DffLLuWX0A==",
+  "dgSpecHash": "AKj/7ZOYuAmGI2svL7/3WvV8exW5DyqsfzrdhyBhWLGIqpFBgUB+2OKtH4pS64lon2huJ5uN6Io46ckG5GJDLw==",
   "success": true,
-  "projectFilePath": "D:\\SOFTWARE\\_SoftUni-QA\\03_Programming Fundamentals and Unit Testing - September_2023\\14_Unit_Testing\\07.2.Resources-Unit-Testing-Arrays-and-Lists\\TestApp.UnitTests\\TestApp.UnitTests.csproj",
+  "projectFilePath": "D:\\SOFTWARE\\_SoftUni-QA\\03_Programming Fundamentals and Unit Testing - September_2023\\14_Unit_Testing\\Unit-Testing-Arrays-and-Lists\\TestApp.UnitTests\\TestApp.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tsveta\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Tsveta\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
