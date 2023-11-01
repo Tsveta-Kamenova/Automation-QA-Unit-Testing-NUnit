@@ -13,24 +13,46 @@ public class FakeTests
         // Arrange
         char[]? input = null;
 
-        // Act + Assert
+        // Act & Assert
+        Assert.Throws<ArgumentException>(() => { Fake.RemoveStringNumbers(input); });
     }
 
     [Test]
     public void Test_RemoveStringNumbers_RemovesDigitsFromCharArray()
     {
-        // TODO: finish test
+        // Arrange
+        char[]? inputArray = { '3', 'a', '$' };
+
+        // Act
+        char[] result = Fake.RemoveStringNumbers(inputArray);
+
+        // Assert
+        Assert.That(result, Is.EqualTo(new[] { 'a', '$' }));
     }
 
     [Test]
     public void Test_RemoveStringNumbers_NoDigitsInInput_ReturnsSameArray()
     {
-        // TODO: finish test
+        // Arrange
+        char[]? inputArray = { '@', 'a', '$' };
+
+        // Act
+        char[] result = Fake.RemoveStringNumbers(inputArray);
+
+        // Assert
+        Assert.That(result, Is.EqualTo(new[] { '@', 'a', '$' }));
     }
 
     [Test]
-    public void Test_RemoveStringNumbers_EmptyArray_ReturnsEmptyArray()
+    public void Test_RemoveStringNumbers_OnlyDigitsArray_ReturnsEmptyArray()
     {
-        // TODO: finish test
+        // Arrange
+        char[]? inputArray = { '3', '1', '8' };
+
+        // Act
+        char[] result = Fake.RemoveStringNumbers(inputArray);
+
+        // Assert
+        Assert.That(result, Is.Empty);
     }
 }
