@@ -20,7 +20,6 @@ public class PalindromeTests
         Assert.IsTrue(result);
     }
 
-    // TODO: finish test
     [Test]
     public void Test_IsPalindrome_EmptyList_ReturnsTrue()
     {
@@ -28,25 +27,48 @@ public class PalindromeTests
         List<string> words = new();
 
         // Act
+        bool result = Palindrome.IsPalindrome(words);
 
         // Assert
+        Assert.IsTrue(result);
     }
 
     [Test]
     public void Test_IsPalindrome_SingleWord_ReturnsTrue()
     {
-        // TODO: finish test
+        // Arrange
+        List<string>? stringInput = new() { "p" };
+
+        // Act
+        bool result = Palindrome.IsPalindrome(stringInput);
+
+        // Assert
+        Assert.IsTrue(result);
     }
 
     [Test]
     public void Test_IsPalindrome_NonPalindrome_ReturnsFalse()
     {
-        // TODO: finish test
+        // Arrange
+        List<string>? stringInput = new() { "peacock" };
+
+        // Act
+        bool result = Palindrome.IsPalindrome(stringInput);
+
+        // Assert
+        Assert.IsFalse(result);
     }
 
     [Test]
     public void Test_IsPalindrome_MixedCasePalindrome_ReturnsTrue()
     {
-        // TODO: finish test
+        // Arrange
+        List<string>? stringInput = new() { "leVEl" };
+
+        // Act
+        bool result = Palindrome.IsPalindrome(stringInput);
+
+        // Assert
+        Assert.IsTrue(result);
     }
 }
