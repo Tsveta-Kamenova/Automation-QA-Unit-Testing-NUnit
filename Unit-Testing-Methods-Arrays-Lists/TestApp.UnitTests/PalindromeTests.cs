@@ -11,11 +11,13 @@ public class PalindromeTests
     public void Test_IsPalindrome_ValidPalindrome_ReturnsTrue()
     {
         // Arrange
+        List<string>? stringInput = new() { "level" };
 
         // Act
+        bool result = Palindrome.IsPalindrome(stringInput);
 
         // Assert
-        //Assert.IsTrue(result);
+        Assert.IsTrue(result);
     }
 
     // TODO: finish test

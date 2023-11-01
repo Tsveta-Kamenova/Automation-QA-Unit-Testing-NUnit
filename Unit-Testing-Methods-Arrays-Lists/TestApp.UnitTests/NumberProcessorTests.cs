@@ -20,16 +20,18 @@ public class NumberProcessorTests
         CollectionAssert.AreEqual(expected, actual);
     }
 
-    // TODO: finish test
     [Test]
     public void Test_ProcessNumbers_SquareRootOddNumbers()
     {
         // Arrange
+        List<int> input = new() { 9, 49, 25 };
+        List<double> expected = new() { 3, 7, 5 };
 
         // Act
-        
+        List<double> actual = NumberProcessor.ProcessNumbers(input);
+
         // Assert
-        //CollectionAssert.AreEqual(expected, actual);
+        CollectionAssert.AreEqual(expected, actual);
     }
 
     // TODO: finish test
@@ -41,19 +43,32 @@ public class NumberProcessorTests
         List<int> expected = new() { 0 };
 
         // Act
+        List<double> actual = NumberProcessor.ProcessNumbers(input);
 
         // Assert
+        CollectionAssert.AreEqual(expected, actual);
     }
 
     [Test]
     public void Test_ProcessNumbers_HandleNegativeNumbers()
     {
-        // TODO: finish test
+        // Arrange
+        List<int> input = new() { -5, -3};
+
+        // Act & Assert
+        Assert.That(() => NumberProcessor.ProcessNumbers(input), Throws.ArgumentException);
     }
 
     [Test]
     public void Test_ProcessNumbers_EmptyInput()
     {
-        // TODO: finish test
+        // Arrange
+        List<int> input = new();
+
+        // Act
+        List<double> result = NumberProcessor.ProcessNumbers(input);
+
+        // Assert
+        Assert.That(result, Is.Empty);
     }
 }
